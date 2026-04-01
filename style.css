@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #040303;
+    color: #ffffff;
+    font-family: 'Times New Roman', serif;
+    background-image:url('https://img.freepik.com/premium-vector/logo-mockup-branding-template_1195262-4945.jpg?semt=ais_incoming&w=740&q=80');
+   background-size:cover;
+   background-position:center;
+   background-attachment:fixed;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+    align-items: center;
+}
+.logo{
+    font-size:24px;
+    font-weight: bold; 
+    color: #c4a47c;
+    
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    border-bottom: 1px solid transparent;
+}
+.hero{
+    display: flex;
+    padding: 50px 10%;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.hero-content h4{
+    color:#c4a47c;
+    font-size: 22px;
+    font-weight: normal;
+}
+.hero-content h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+.role{
+    color:#c4a47c;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.view-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #c4a47c;
+    color: #c4a47c; 
+    text-decoration: none;
+    margin-top:20px;
+}
+.hero-images img{
+    width: 450px;
+}
+.info-grid{
+    display: flex;
+    justify-content:space-between ;
+    padding: 50px 10%;
+    border-top:1px solid #333;
+    background-color: rgba(255,255,255,0.02);
+    color:#c4a47c;
+
+}
+.info-box{
+    width: 30%;
+    color:#ffffff;
+    color:#c4a47c;;
+}
+.info-box p{
+    color:white;
+}
+    
+
+.info-box h3{
+   text-align:center;
+   font-size: 24px;
+   border-bottom:1px solid #ffffff;
+   padding-bottom: 10px;
+   margin-bottom: 15px;
+}
+.info-box ul {
+    list-style: none;
+}
+.info-box ul li::before{ 
+    content:".";
+   color: #c4a47c;
+  margin-right: 8px;
+}
+.info-box ul li{
+    margin-bottom: 5px;
+    color:#ccc;
+    color: white;
+}
+.footer-title{
+    text-align: center;
+    padding: 40px;
+    border-top:2px solid #222;
+    background-color: #000;
+
+}
+.footer-title h2{
+    font-size:30px;
+    letter-spacing:2px;
+    text-align:center;
+    padding:20px
+    width:100%;
+}
+.contact-section{
+    padding:20px;
+    color:white;
+}
+.contact-section h2{
+    color:#c4a47c;
+    border-bottom: 1px solid white;
+    display:inline-block;
+    margin-bottom:15px;
+}
+.contact-section p{
+    margin: 10px 0;
+}
+.contact-section a{
+    color:white;
+    text-decoration:none;
+}
+.contact-section{
+    display: block;
+    padding: 40pxpx 0;
+    text-align: center;
+    margin-top:50px;
+    width:100%;
+    clear: both;
+    margin-top:60px;
+}
+.contact-section h2{
+    font-size: 32px;
+    margin-bottom:20px;
+    display:inlline-block;
+    border-bottom:2px sollid#d4af37;
+    padding-bottom:5px;
+}
+.contct-details p{
+    font-size:20px;
+    margin: 12px 0;
+    color:white;
+}
+.main-footer {
+    width: 100%;
+    
+    padding: 30px 0;
+    border-top: 1px solid rgba(212, 175, 55, 0.2); /* ਹਲਕੀ ਗੋਲਡਨ ਲਾਈਨ */
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* ਚੀਜ਼ਾਂ ਨੂੰ ਇੱਕ ਦੇ ਹੇਠਾਂ ਇੱਕ ਕਰਨ ਲਈ */
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-content p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon {
+    color: #D4AF37; /* ਗੋਲਡਨ ਰੰਗ */
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    color: white;
+    text-shadow: 0 0 10px #D4AF37;
+}
